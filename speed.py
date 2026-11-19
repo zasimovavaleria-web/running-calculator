@@ -35,12 +35,12 @@ while True:
             avg_speed_mph = calculate_speed(dist_mi, mins, secs)
 
             print("\n--- Итоги пробежки ---")
-            print(f"{'Дистанция:':<20} {dist_km:.2f} км ({dist_mi:.2f} миль)")
-            print(f"{'Общее время:':<20} {mins * 60 + secs:.0f} сек")
-            print(f"{'Средний темп (на 1 км):':<20} {p_min_km} мин {p_sec_km:02d} сек на 1 км")
-            print(f"{'Средний темп (на 1 милю):':<20} {p_min_mi} мин {p_sec_mi:02d} сек")
-            print(f"{'Cредняя скорость (км/ч):':<20} {avg_speed_kmh:.2f} км/ч")
-            print(f"{'Средняя скорость (миль/ч):':<20} {avg_speed_mph:.2f} миль/ч")
+            print(f"{'Дистанция:':<26} {dist_km:.2f} км ({dist_mi:.2f} миль)")
+            print(f"{'Общее время:':<26} {mins * 60 + secs:.0f} сек")
+            print(f"{'Средний темп (на 1 км):':<26} {p_min_km} мин {p_sec_km:02d} сек на 1 км")
+            print(f"{'Средний темп (на 1 милю):':<26} {p_min_mi} мин {p_sec_mi:02d} сек на 1 милю")
+            print(f"{'Cредняя скорость (км/ч):':<26} {avg_speed_kmh:.2f} км/ч")
+            print(f"{'Средняя скорость (миль/ч):':<26} {avg_speed_mph:.2f} миль/ч")
             break
 
     except ValueError:
